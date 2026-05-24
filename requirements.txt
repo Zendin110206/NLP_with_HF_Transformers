@@ -1,0 +1,8 @@
+torch
+transformers[sentencepiece]
+datasets
+evaluate
+sacremoses
+ipykernel
+jupyter
+ipywidgets

@@ -31,3 +31,18 @@ This repository is being completed in small checkpoints. The notebook has been a
 - Completed notebook with executed outputs.
 - Written analysis for each TODO section.
 - Final README summary based on the notebook results.
+
+## Local Setup
+
+This repository can be run locally with a project-specific Python virtual environment.
+
+```powershell
+py -3.12 -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+python -m ipykernel install --user --name nlp-hf-transformers --display-name "NLP HF Transformers (.venv)"
+```
+
+After the environment is ready, open `hugging_face_transformers.ipynb` and select the `NLP HF Transformers (.venv)` kernel.
