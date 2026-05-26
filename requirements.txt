@@ -1,5 +1,5 @@
 torch
-transformers[sentencepiece]
+transformers[sentencepiece]==4.41.2
 datasets
 evaluate
 sacremoses
